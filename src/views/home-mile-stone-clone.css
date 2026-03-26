@@ -1,0 +1,221 @@
+.home-mile-stone-clone-container1 {
+  width: 100%;
+  min-height: 100vh;
+}
+ 
+.home-mile-stone-clone-thq-main-nav-elm {
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 1000;
+  position: fixed;
+  background: var(--white);
+  box-shadow: 0 2px 20px rgba(10, 29, 55, 0.1);
+}
+ 
+.home-mile-stone-clone-thq-main-navcontainer-elm {
+  margin: 0 auto;
+  display: flex;
+  padding: 12px 20px;
+  max-width: 1200px;
+  align-items: center;
+  justify-content: space-between;
+}
+ 
+.home-mile-stone-clone-navlink1 {
+  display: contents;
+}
+ 
+.home-mile-stone-clone-thq-main-navlogo-elm {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+}
+ 
+.home-mile-stone-clone-thq-main-navlogo-text-elm {
+  gap: 8px;
+  display: flex;
+  align-items: center;
+}
+ 
+.home-mile-stone-clone-thq-nav-logo-elm {
+  width: auto;
+  height: 40px;
+}
+ 
+.home-mile-stone-clone-thq-main-navlogo-brand-elm {
+  display: flex;
+  line-height: 1;
+  flex-direction: column;
+}
+ 
+.home-mile-stone-clone-thq-main-navlogo-top-elm {
+  color: var(--navy);
+  font-size: 18px;
+  font-weight: 800;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+ 
+.home-mile-stone-clone-thq-main-navlogo-bottom-elm {
+  color: var(--orange);
+  font-size: 14px;
+  font-weight: 700;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+ 
+.home-mile-stone-clone-thq-main-navlinks-elm {
+  gap: 40px;
+  display: flex;
+  align-items: center;
+}
+ 
+.home-mile-stone-clone-navlink2 {
+  display: contents;
+}
+ 
+.home-mile-stone-clone-link1 {
+  display: contents;
+}
+ 
+.home-mile-stone-clone-link2 {
+  display: contents;
+}
+ 
+.home-mile-stone-clone-link3 {
+  display: contents;
+}
+ 
+.home-mile-stone-clone-link4 {
+  display: contents;
+}
+ 
+.home-mile-stone-clone-container2 {
+  display: none;
+}
+ 
+.home-mile-stone-clone-container3 {
+  display: contents;
+}
+ 
+.home-mile-stone-clone-thq-hero-sectionhighlight-elm {
+  color: var(--orange);
+}
+ 
+.home-mile-stone-clone-image1 {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 12px;
+}
+ 
+.home-mile-stone-clone-image2 {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 12px;
+}
+ 
+.home-mile-stone-clone-image3 {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 12px;
+}
+ 
+.home-mile-stone-clone-image4 {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 12px;
+}
+ 
+.home-mile-stone-clone-thq-countries-sectioncontainer-elm {
+  margin: 0 auto;
+  padding: 0 20px;
+  position: relative;
+  max-width: 1200px;
+}
+ 
+.home-mile-stone-clone-thq-countries-sectionheader-elm {
+  text-align: center;
+  margin-bottom: 60px;
+}
+ 
+.home-mile-stone-clone-thq-countries-sectiontitle-elm {
+  color: var(--navy);
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+}
+ 
+.home-mile-stone-clone-thq-countries-sectionlead-elm {
+  color: var(--text-muted);
+  margin: 0 auto;
+  font-size: 1.125rem;
+  max-width: 600px;
+}
+ 
+.home-mile-stone-clone-thq-countries-sectiongrid-elm {
+  gap: 30px;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+}
+ 
+.home-mile-stone-clone-thq-locations-sectioncontent-elm {
+  border: 2px dashed rgba(120, 120, 120, 0.4);
+}
+ 
+.home-mile-stone-clone-thq-locations-sectionmap-iframe-elm {
+  width: 100%;
+  border: none;
+  height: 500px;
+  box-shadow: var(--shadow);
+  border-radius: 20px;
+}
+ 
+.home-mile-stone-clone-container6 {
+  display: none;
+}
+ 
+.home-mile-stone-clone-container7 {
+  display: contents;
+}
+ 
+.home-mile-stone-clone-container8 {
+  display: none;
+}
+ 
+.home-mile-stone-clone-container9 {
+  display: contents;
+}
+ 
+@media(max-width: 991px) {
+  .home-mile-stone-clone-thq-main-navlinks-elm {
+    gap: 24px;
+  }
+  .home-mile-stone-clone-thq-countries-sectiongrid-elm {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+ 
+@media(max-width: 767px) {
+  .home-mile-stone-clone-thq-main-navcontainer-elm {
+    padding: 10px 16px;
+  }
+  .home-mile-stone-clone-thq-main-navlogo-top-elm {
+    font-size: 16px;
+  }
+  .home-mile-stone-clone-thq-main-navlogo-bottom-elm {
+    font-size: 12px;
+  }
+  .home-mile-stone-clone-thq-main-navlinks-elm {
+    display: none;
+  }
+}
+ 
+@media(max-width: 479px) {
+  .home-mile-stone-clone-thq-countries-sectiongrid-elm {
+    grid-template-columns: 1fr;
+  }
+}

@@ -1,0 +1,36 @@
+.home1-container10 {
+  width: 100%;
+  min-height: 100vh;
+}
+ 
+.home1-container11 {
+  display: none;
+}
+ 
+.home1-container12 {
+  display: contents;
+}
+ 
+.home1-thq-footer-logo-img-elm {
+  width: 180px;
+  filter: brightness(0) invert(1);
+  height: auto;
+  max-height: 80px;
+  object-fit: contain;
+}
+ 
+.home1-container21 {
+  display: none;
+}
+ 
+.home1-container22 {
+  display: contents;
+}
+ 
+.home1-container23 {
+  display: none;
+}
+ 
+.home1-container24 {
+  display: contents;
+}

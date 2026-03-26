@@ -1,0 +1,7 @@
+User-agent: Googlebot
+Disallow: /nogooglebot/
+
+User-agent: *
+Allow: /
+
+Sitemap: https://fitting-open-ram-ktbft0.teleporthq.site/sitemap.xml
